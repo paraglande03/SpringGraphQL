@@ -13,6 +13,7 @@ type Query {
 type Book{
     isbn: String
     title: String
+    authors: String
     publisher: [String]
     publishedDate: String
 }
